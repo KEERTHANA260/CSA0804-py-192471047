@@ -1,0 +1,7 @@
+numbers=[10, 20, 30, 40, 50]
+element=int(input("Enter the element to find its index: "))
+if element in numbers:
+    index=numbers.index(element)
+    print("The index of {element} is: {index}")
+else:
+    print("{element} not found in the list.")
