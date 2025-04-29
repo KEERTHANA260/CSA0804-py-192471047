@@ -1,0 +1,3 @@
+numbers=[7, 2, 5, 1, 8, 4]
+numbers.sort()
+print("Sorted list in ascending order:",numbers)
