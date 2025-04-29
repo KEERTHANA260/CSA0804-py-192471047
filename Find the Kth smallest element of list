@@ -1,0 +1,7 @@
+numbers = [7, 2, 1, 6, 8, 5, 3, 4]
+k = int(input("Enter the value of k: "))
+sorted = sorted(numbers)
+if 0 < k <= len(sorted):
+    print(f"The {k}th smallest element is:", sorted_numbers[k - 1])
+else:
+    print("Invalid value of k")
