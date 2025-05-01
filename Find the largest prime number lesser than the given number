@@ -1,0 +1,14 @@
+num = int(input("Enter a number: "))
+current = num - 1
+while current > 1:
+    is_prime = True
+    for i in range(2, int(current**0.5) + 1):
+        if current % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print("The largest prime number less than", num, "is:", current)
+        break
+    current -= 1
+else:
+    print("There is no prime number less than", num)
