@@ -7,4 +7,4 @@ for value in my_dict.values():
     else:
         value_freq[value] = 1
 
-print(value_freq
+print(value_freq)
