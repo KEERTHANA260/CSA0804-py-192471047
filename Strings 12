@@ -1,0 +1,11 @@
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+word_count = {}
+for word in words:
+    if word in word_count:
+        word_count[word] += 1
+    else:
+        word_count[word] = 1
+most = max(word_count, key=word_count.get)
+print("Most frequent word:", most)
+print("Frequency:", word_count[most])
